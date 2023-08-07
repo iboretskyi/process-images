@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ivan Boretskyi <boretskiy7.open1@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "sharp": "^0.32.4"
+  }
+}
