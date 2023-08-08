@@ -19,6 +19,7 @@ const configurations = [
         fileName: 'main_original',
         targetWidth: 1000,
         targetHeight: 1388,
+        optionalTargetWidth: 1001,
     },
 ];
 
@@ -54,7 +55,7 @@ async function processImage(imagePath, config) {
     try {
         const { width, height } = await sharp(imagePath).metadata();
 
-        if (width === config.targetWidth && height === config.targetHeight) {
+        if ((width === config.targetWidth || width === config.optionalTargetWidth) && height === config.targetHeight) {
             const fileExtension = path.extname(imagePath);
             const newFileName = `${config.fileName}${fileExtension}`;
             const newImagePath = path.join(path.dirname(imagePath), newFileName);
