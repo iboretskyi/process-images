@@ -2,7 +2,7 @@
   "name": "PicConfigurist",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Ivan Boretskyi <boretskiy7.open1@gmail.com>",
+  "author": "Ivan Boretskyi",
   "license": "MIT",
   "type": "module",
   "devDependencies": {
