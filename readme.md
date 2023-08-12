@@ -24,6 +24,7 @@ const configurations = [
     },
     ...
 ];
+```
 
 ## 📦 Required Dependencies 
 - **sharp**: This powerful library enables the processing and extraction of metadata from images.
