@@ -1,8 +1,8 @@
 import path from 'path';
 import { promises as fs } from 'fs';
 import sharp from 'sharp';
-import { isImageFile, getNewImagePath } from './utils';
-import { CONFIGURATIONS } from './constants';
+import { isImageFile, getNewImagePath } from './utils.js';
+import { CONFIGURATIONS } from './constants.js';
 
 export async function processDirectory(directory, configurations = CONFIGURATIONS) {
   try {

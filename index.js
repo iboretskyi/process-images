@@ -1,8 +1,8 @@
-import { ROOT_DIRECTORY } from './constants';
-import { processDirectory } from './imageProcessor';
+import { ROOT_DIRECTORY as defaultRootDirectory } from './constants.js';
+import { processDirectory } from './imageProcessor.js';
 
 const customConfigurations = [
   // Your custom configurations go here...
 ];
 
-processDirectory(ROOT_DIRECTORY, customConfigurations); // Now uses custom configurations
+processDirectory(defaultRootDirectory); // Now uses custom configurations
