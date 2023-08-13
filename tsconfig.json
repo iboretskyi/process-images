@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",           // TypeScript outputs ES modules which Babel will then transform
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "outDir": ".dist",
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "configurations.json"]
+}

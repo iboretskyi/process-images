@@ -1,0 +1,23 @@
+[
+  {
+    "fileName": "square_original",
+    "targetWidth": 1000,
+    "targetHeight": 1000,
+    "optionalTargetWidth": [],
+    "optionalTargetHeight": []
+  },
+  {
+    "fileName": "wide_original",
+    "targetWidth": 998,
+    "targetHeight": 804,
+    "optionalTargetWidth": [],
+    "optionalTargetHeight": []
+  },
+  {
+    "fileName": "main_original",
+    "targetWidth": 1010,
+    "targetHeight": 1388,
+    "optionalTargetWidth": [],
+    "optionalTargetHeight": []
+  }
+]
