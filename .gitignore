@@ -1,2 +1,6 @@
 node_modules
 images
+
+results/*
+inputs/enabled.json
+inputs/Result_2.json

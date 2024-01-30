@@ -4,24 +4,24 @@ export const IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.tif
 
 export const CONFIGURATIONS = [
   {
-    fileName: 'square_original',
+    fileName: 'main_square',
     targetWidth: 1000,
     targetHeight: 1000,
     optionalTargetWidth: [],  // Empty array indicates no optional widths
     optionalTargetHeight: []  // Empty array indicates no optional heights
   },
   {
-    fileName: 'wide_original',
+    fileName: 'main_wide',
     targetWidth: 998,
     targetHeight: 804,
-    optionalTargetWidth: [],
-    optionalTargetHeight: []
+    optionalTargetWidth: [1000, 1001],
+    optionalTargetHeight: [806, 807]
   },
   {
     fileName: 'main_original',
     targetWidth: 1000,
     targetHeight: 1388,
-    optionalTargetWidth: [],
+    optionalTargetWidth: [1001],
     optionalTargetHeight: []
   },
 ];
